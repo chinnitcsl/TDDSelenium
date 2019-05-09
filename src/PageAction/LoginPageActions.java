@@ -9,7 +9,7 @@ public class LoginPageActions extends CommonActions {
 	}
 	
 	public void openLoginDemoSite() {
-		driver.get("http://demo.guru99.com/v4");
+		driver.get("http://demo.guru99.com/v4/");
 	}
 
 	public void loginToDemoPage() {
