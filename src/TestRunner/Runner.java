@@ -6,7 +6,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-features="Features", 
+features="Features/Login.feature", 
 glue={"StepDefinition"})
 //Login, DragAndDrop
 
