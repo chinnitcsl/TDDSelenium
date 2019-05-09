@@ -4,7 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LoginPageActions extends CommonActions {
 	public void launchBrowser() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\chinn\\Desktop\\BDD\\exeSuite\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\chinn\\Desktop\\BDD\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
 	}
 	
