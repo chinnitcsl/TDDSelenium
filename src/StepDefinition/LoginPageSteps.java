@@ -22,7 +22,8 @@ public class LoginPageSteps {
 	
 	@When("^Enter the username and password$")					
 	public void enter_the_Username_and_Password() {
-		loginPageActions.loginToDemoPage();		
+		loginPageActions.loginToDemoPage();
+		System.out.println("This is a sample note");
 	}		
 
 	@Then("^Reset the credential$")					
