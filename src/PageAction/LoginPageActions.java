@@ -16,6 +16,7 @@ public class LoginPageActions extends CommonActions {
 		PageLocators.LoginPage.LoginUsername.sendKeys("mngr190639");
 		PageLocators.LoginPage.LoginPassword.sendKeys("gyjAnut");
 		PageLocators.LoginPage.LoginButton.click();
+		System.out.println("This is a sample note");
 	}
 	
 	public void closeBrowser() {
